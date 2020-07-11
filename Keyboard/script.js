@@ -1,0 +1,2 @@
+document.body.onkeydown = () => document.querySelector(`[data="${event.code}"]`).classList.add('press');
+document.body.onkeyup = () => document.querySelector(`[data="${event.code}"]`).classList.remove('press');

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mac keyboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mac keyboard emulation</h1>
+        <div class="keyboard">
+            <div class="keyboard-row">
+                <div class="key" data="Escape">esc</div>
+                <div class="key" data="f1">f1</div>
+                <div class="key" data="f2">f2</div>
+                <div class="key" data="f3">f3</div>
+                <div class="key" data="f4">f4</div>
+                <div class="key" data="f5">f5</div>
+                <div class="key" data="f6">f6</div>
+                <div class="key" data="f7">f7</div>
+                <div class="key" data="f8">f8</div>
+                <div class="key" data="f9">f9</div>
+                <div class="key" data="f10">f10</div>
+                <div class="key" data="f11">f11</div>
+                <div class="key" data="f12">f12</div>
+                <div class="key" data="power">power</div>
+            </div>
+            <div class="keyboard-row">
+                <div class="key" data="Backquote">§</div>
+                <div class="key" data="Digit1">1</div>
+                <div class="key" data="Digit2">2</div>
+                <div class="key" data="Digit3">3</div>
+                <div class="key" data="Digit4">4</div>
+                <div class="key" data="Digit5">5</div>
+                <div class="key" data="Digit6">6</div>
+                <div class="key" data="Digit7">7</div>
+                <div class="key" data="Digit8">8</div>
+                <div class="key" data="Digit9">9</div>
+                <div class="key" data="Digit0">0</div>
+                <div class="key" data="Minus">-</div>
+                <div class="key" data="Equal">=</div>
+                <div class="key down right" data="Backspace">&#9003;</div>
+            </div>
+            <div class="keyboard-row">
+                <div class="key down left" data="Tab">&#8677;</div>
+                <div class="key" data="KeyQ">q</div>
+                <div class="key" data="KeyW">w</div>
+                <div class="key" data="KeyE">e</div>
+                <div class="key" data="KeyR">r</div>
+                <div class="key" data="KeyT">t</div>
+                <div class="key" data="KeyY">y</div>
+                <div class="key" data="KeyU">u</div>
+                <div class="key" data="KeyI">i</div>
+                <div class="key" data="KeyO">o</div>
+                <div class="key" data="KeyP">p</div>
+                <div class="key" data="BracketLeft">[</div>
+                <div class="key" data="BracketRight">]</div>
+                <div class="key" data="Backslash">\</div>
+
+            </div>
+            <div class="keyboard-row">
+                <div class="key down left" data="CapsLock">
+                    <div>&#8682;</div>
+                    <div class="caps-indicator"></div>
+                </div>
+                <div class="key" data="KeyA">a</div>
+                <div class="key" data="KeyS">s</div>
+                <div class="key" data="KeyD">d</div>
+                <div class="key" data="KeyF">f</div>
+                <div class="key" data="KeyG">g</div>
+                <div class="key" data="KeyH">h</div>
+                <div class="key" data="KeyJ">j</div>
+                <div class="key" data="KeyK">k</div>
+                <div class="key" data="KeyL">l</div>
+                <div class="key" data="Semicolon">;</div>
+                <div class="key" data="Quote">'</div>
+                <div class="key down right" data="Enter">&#11152;</div>
+            </div>
+            <div class="keyboard-row">
+                <div class="key down left" data="ShiftLeft">&#8679;</div>
+                <div class="key" data="IntlBackslash">`</div>
+                <div class="key" data="KeyZ">z</div>
+                <div class="key" data="KeyX">x</div>
+                <div class="key" data="KeyC">c</div>
+                <div class="key" data="KeyV">v</div>
+                <div class="key" data="KeyB">b</div>
+                <div class="key" data="KeyN">n</div>
+                <div class="key" data="KeyM">m</div>
+                <div class="key" data="Comma">,</div>
+                <div class="key" data="Period">.</div>
+                <div class="key" data="Slash">/</div>
+                <div class="key down right" data="ShiftRight">&#8679;</div>
+            </div>
+            <div class="keyboard-row">
+                <div class="key down left" data="fn">fn</div>
+                <div class="key down left" data="ControlLeft">ctrl</div>
+                <div class="key down left" data="AltLeft">alt</div>
+                <div class="key down left" data="MetaLeft">cmd</div>
+                <div class="key" data="Space"></div>
+                <div class="key down right" data="MetaRight">cmd</div>
+                <div class="key down right" data="AltRight">alt</div>
+                <div class="key arrows" data="ArrowLeft">&#9664;</div>
+                <div>
+                    <div class="key arrows" data="ArrowUp">&#9650;</div>
+                    <div class="key arrows" data="ArrowDown">&#9660;</div>
+                </div>
+                <div class="key arrows" data="ArrowRight">&#9654;</div>
+            </div>
+        </div>
+        <div class="contacts-links">
+            <a href="https://github.com/iCherya/Sandbox/Keyboard" target="_blank">
+                <svg height="32" viewbox="0 0 16 16" width="32">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/icherya/" target="_blank">
+                <svg height="32" viewbox="0 0 512 512" width="32">
+                    <path
+                        d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm-74.390625 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0" />
+                </svg>
+            </a>
+            <a href="https://t.me/iCherya" target="_blank">
+                <svg height="32" viewbox="0 0 24 24" width="32">
+                    <path
+                        d="m12 24c6.629 0 12-5.371 12-12s-5.371-12-12-12-12 5.371-12 12 5.371 12 12 12zm-6.509-12.26 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

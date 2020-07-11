@@ -1,0 +1,148 @@
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.keyboard {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 1090px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 90%);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.45);
+    padding: 10px;
+}
+
+.keyboard-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 5px;
+}
+
+.keyboard-row:last-child {
+    margin-bottom: 5px;
+}
+
+.keyboard-row:last-child>.key {
+    height: 68px;
+    text-transform: lowercase;
+}
+
+.keyboard-row:first-of-type .key,
+.arrows.key.arrows.key {
+    height: 34px;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.keyboard-row:first-of-type .key:first-child,
+.keyboard-row:first-of-type .key:last-child {
+    text-transform: lowercase;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.45);
+    width: 60px;
+    height: 60px;
+    color: rgb(235, 235, 235);
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.down {
+    align-items: flex-end;
+}
+
+.key[data="CapsLock"] {
+    width: 120px;
+    position: relative;
+}
+
+.caps-indicator {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background: silver;
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.key[data="CapsLock"].press>.caps-indicator {
+    background: greenyellow;
+}
+
+.key[data="Tab"],
+.key[data="Backspace"] {
+    width: 100px;
+}
+
+.key[data="ShiftLeft"],
+.key[data="MetaLeft"],
+.key[data="MetaRight"] {
+    width: 80px;
+}
+
+.key[data="Space"] {
+    width: 364px;
+}
+
+.key[data="Enter"] {
+    width: 110px;
+}
+
+.key[data="ShiftRight"] {
+    width: 150px;
+}
+
+.arrows.key {
+    font-size: 10px;
+}
+
+.press {
+    background: rgba(0, 0, 0, .9);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .9);
+    transform: translate(0, 1px);
+}
+
+.contacts-links {
+    text-align: center;
+    font-size: 0;
+    margin-top: 2rem;
+}
+
+.contacts-links svg {
+    margin: 0 5px;
+}
+
+.contacts-links svg:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
