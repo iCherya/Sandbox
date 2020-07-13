@@ -1,0 +1,33 @@
+body {
+    background: #f5f0e1;
+    color: #1e3d59;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, monospace;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.time__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    margin: 10px;
+}
+
+.time__block--remain {
+    font-size: 2em;
+}
